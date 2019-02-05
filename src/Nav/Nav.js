@@ -1,16 +1,17 @@
 import React from 'react';
 
-const Nav = () => {
+const Nav = ({ changePage }) => {
   return (
     <nav>
       <ul> 
         <h4>API ENDPOINTS</h4>
-        <li>GET</li>
-        <li>POST</li>
-        <li>PATCH</li>
-        <li>DELETE</li>
+        <li onClick={() => changePage("get")}>GET</li>
+        <li onClick={() => changePage("post")}>POST</li>
+        <li onClick={() => changePage("patch")}>PATCH</li>
+        <li onClick={() => changePage("delete")}>DELETE</li>
       </ul>
       <h4>MORE INFO</h4>
+      <h4 onClick={() => changePage("overview")}>OVERVIEW</h4>
     </nav>
   )
 }
