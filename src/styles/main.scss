@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 200px auto;
+  grid-template-areas: 
+    "Header Header"
+    "Nav Main";
+}
+
+@import "Header";
+@import "Nav";
+@import "Main";
