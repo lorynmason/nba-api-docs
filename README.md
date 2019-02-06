@@ -8,4 +8,5 @@
 
 ### Contributors
 [Ashley Levi](https://github.com/ashleylevi)
+
 [Loryn Mason](https://github.com/lorynmason)
