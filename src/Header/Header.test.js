@@ -5,7 +5,7 @@ import { shallow } from 'enzyme'
 
 describe('Header', () => {
   const wrapper = shallow(<Header />)
-  it('should matches the snapshot', () => {
+  it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
 })
