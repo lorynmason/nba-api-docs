@@ -5,6 +5,10 @@
   grid-template-areas: 
     "Header Header"
     "Nav Main";
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(19, 17, 17);
+  color: #fff;
+
 }
 
 @import "Header";

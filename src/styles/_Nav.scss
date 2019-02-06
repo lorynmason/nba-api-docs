@@ -10,12 +10,21 @@ ul {
 
 .overview, .link {
   cursor: pointer;
+  font-size: 20px;
+  color: #C10E2C;
+}
+
+.overview:hover, .link:hover {
+  color: #fff;
 }
 
 .endpoints {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #C10E2C;
 }
 
 .link {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
