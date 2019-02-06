@@ -3,6 +3,8 @@
 ### About
 nba-api-docs is a web based application built in React that documents how to utilize the Fantasy Basketball API. Users can browse through the various endpoints that the API provides using GET, POST, PATCH and DELETE and offers visualizations of sample JSON responses. 
 
+See the deployed app [here](https://fantasy-basketball-api-doc.herokuapp.com/)
+
 ### Installation and Setup Instructions
 * Clone down this repository.
 * cd into directory.
