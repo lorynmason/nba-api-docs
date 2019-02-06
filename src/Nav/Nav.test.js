@@ -17,5 +17,4 @@ describe('Nav', () => {
     wrapper.find('#page-overview').simulate('click')
     expect(mockFunc).toHaveBeenCalledTimes(5)
   })
-
 })
