@@ -1,3 +1,21 @@
 nav {
   grid-area: Nav;
 }
+
+ul {
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.overview, .link {
+  cursor: pointer;
+}
+
+.endpoints {
+  margin-bottom: 5px;
+}
+
+.link {
+  margin-bottom: 5px;
+}
