@@ -1,9 +1,9 @@
-import React from 'react';
+ import React from 'react';
 
 const Header = () => {
   return (
     <header>
-      <h1>FANTASY BASKETBALL API DOCUMENTATION</h1>
+      <h1 className="title">FANTASY BASKETBALL API DOCUMENTATION</h1>
     </header>
   )
 }

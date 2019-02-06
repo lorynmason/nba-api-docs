@@ -1,5 +1,15 @@
+
+
 header {
   text-align: center;
   grid-area: Header;
   width: 100%;
+  background-image: url('/ball.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.title {
+  color: white;
 }

@@ -1,3 +1,45 @@
 main {
   grid-area: Main;
+  margin-right: 50px;
+}
+
+.main {
+  margin-bottom: 100px;
+}
+
+.get {
+  width: 800px;
+  height: 800px;
+}
+
+.get2 {
+  width: 800px;
+  height: 300px;
+}
+
+.post3 {
+  width: 800px;
+  height: 300px;
+}
+
+.post2 {
+  height: 80px;
+}
+
+.post1 {
+  width: 800px;
+}
+
+.patch1, .patch3 {
+  width: 800px;
+  height: 100px;
+}
+.patch2, .patch4 {
+  width: 800px;
+  height: 50px;
+}
+
+.delete {
+  width: 800px;
+  height: 50px;
 }
