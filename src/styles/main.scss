@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .App {
   display: grid;
   grid-template-columns: 20vw 80vw;
@@ -6,8 +9,9 @@
     "Header Header"
     "Nav Main";
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(19, 17, 17);
+  background-color: rgb(38, 32, 32);
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 
 }
 
