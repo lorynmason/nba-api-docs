@@ -14,7 +14,7 @@ const Main = ({ activePage }) => {
   if (activePage === 'get') {
     return (
       <div className="main">
-        <h2>GET all teams:</h2>
+        <h2 className="endpoint">GET all teams:</h2>
         <h3>GET /api/v1/teams</h3>
         <p>Receive an array of NBA teams with relevant stats.</p> 
         
@@ -23,7 +23,7 @@ const Main = ({ activePage }) => {
         <img src="../images/Screen Shot 2019-02-05 at 3.29.49 PM.png" className="get"></img>
           
       
-        <h2>GET all players:</h2>
+        <h2 className="endpoint">GET all players:</h2>
         <h3>GET /api/v1/players</h3>
         <p>Receive an arry of the top 3 scoring leaders from each team with additional stats.</p> 
         
@@ -32,7 +32,7 @@ const Main = ({ activePage }) => {
         <img src="../images/Screen Shot 2019-02-05 at 3.30.12 PM.png" className="get"></img>
         
 
-        <h2>GET a single team:</h2>
+        <h2 className="endpoint">GET a single team:</h2>
         <h3>GET /api/v1/teams/:id</h3>
         <p>Receive a single team object with stats.</p>
         
@@ -40,7 +40,7 @@ const Main = ({ activePage }) => {
 
         <img src="../images/Screen Shot 2019-02-05 at 3.30.27 PM.png" className="get2"></img>
 
-        <h2>GET a single player:</h2>
+        <h2 className="endpoint">GET a single player:</h2>
         <h3>GET /api/v1/players/:id</h3>
         <p>Receive a single player object with all stats.</p>
         
@@ -54,7 +54,7 @@ const Main = ({ activePage }) => {
   if (activePage === 'post') {
     return (
       <div className="main">
-        <h2>POST a new team:</h2>
+        <h2 className="endpoint">POST a new team:</h2>
         <h3>POST /api/v1/teams</h3>
         <p>Request should include a complete team with all necessary properties.</p>
         <p>Sample Request:</p>
@@ -66,7 +66,7 @@ const Main = ({ activePage }) => {
         
         <img src="../images/Screen Shot 2019-02-05 at 3.31.16 PM.png" className="post2"></img>
 
-        <h2>Post a new player:</h2>
+        <h2 className="endpoint">Post a new player:</h2>
         <h3>POST /api/v1/players</h3>
         <p>Request should include a complete player object with all necessary properties.</p>
         <p>Sample Request:</p>
@@ -78,8 +78,8 @@ const Main = ({ activePage }) => {
   if (activePage === 'patch') {
     return (
       <div className="main">
-        <h3>PATCH an existing team:</h3>
-        <h2>PATCH /api/v1/teams/:id</h2>
+        <h2 className="endpoint">PATCH an existing team:</h2>
+        <h3>PATCH /api/v1/teams/:id</h3>
         <p>Request should include any key/value pairs that are to be changed in the database.</p>
         <p>Sample request body:</p>
 
@@ -90,8 +90,8 @@ const Main = ({ activePage }) => {
 
         <img src="../images/Screen Shot 2019-02-05 at 3.50.15 PM.png" className="patch2"></img>
 
-        <h3>PATCH an existing player:</h3>
-        <h2>PATCH /api/v1/players/:id</h2>
+        <h2 className="endpoint">PATCH an existing player:</h2>
+        <h3>PATCH /api/v1/players/:id</h3>
         <p>Request should include any key/value pairs that are to be changed on the database.</p>
         <p>Sample request body:</p>
 
@@ -107,15 +107,15 @@ const Main = ({ activePage }) => {
   if (activePage === 'delete') {
     return (
       <div className="main">
-        <h3>DELETE an existing team:</h3>
-        <h2>DELETE /api/v1/teams/:id</h2>
+        <h2 className="endpoint">DELETE an existing team:</h2>
+        <h3>DELETE /api/v1/teams/:id</h3>
         <p>Receive a confirmation message or the record that was deleted.</p>
         <p>Sample response:</p>
 
         <img src="../images/Screen Shot 2019-02-05 at 3.32.24 PM.png" className="delete"></img>
         
-        <h3>DELETE an existing player:</h3>
-        <h2>DELETE /api/v1/players/:id</h2>
+        <h2 className="endpoint">DELETE an existing player:</h2>
+        <h3>DELETE /api/v1/players/:id</h3>
         <p>Receive a confirmation message or the record that was deleted.</p>
         <p>Sample response:</p>
 
