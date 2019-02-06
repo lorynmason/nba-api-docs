@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Nav
+    changePage={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ul>
+          <h4>
+            API ENDPOINTS
+          </h4>
+          <li
+            id="page-get"
+            onClick={[Function]}
+          >
+            GET
+          </li>
+          <li
+            id="page-post"
+            onClick={[Function]}
+          >
+            POST
+          </li>
+          <li
+            id="page-patch"
+            onClick={[Function]}
+          >
+            PATCH
+          </li>
+          <li
+            id="page-delete"
+            onClick={[Function]}
+          >
+            DELETE
+          </li>
+        </ul>,
+        <h4>
+          MORE INFO
+        </h4>,
+        <h4
+          id="page-overview"
+          onClick={[Function]}
+        >
+          OVERVIEW
+        </h4>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              API ENDPOINTS
+            </h4>,
+            <li
+              id="page-get"
+              onClick={[Function]}
+            >
+              GET
+            </li>,
+            <li
+              id="page-post"
+              onClick={[Function]}
+            >
+              POST
+            </li>,
+            <li
+              id="page-patch"
+              onClick={[Function]}
+            >
+              PATCH
+            </li>,
+            <li
+              id="page-delete"
+              onClick={[Function]}
+            >
+              DELETE
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "API ENDPOINTS",
+            },
+            "ref": null,
+            "rendered": "API ENDPOINTS",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "GET",
+              "id": "page-get",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "GET",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "POST",
+              "id": "page-post",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "POST",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "PATCH",
+              "id": "page-patch",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "PATCH",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "DELETE",
+              "id": "page-delete",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "DELETE",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "MORE INFO",
+        },
+        "ref": null,
+        "rendered": "MORE INFO",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "OVERVIEW",
+          "id": "page-overview",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "OVERVIEW",
+        "type": "h4",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ul>
+            <h4>
+              API ENDPOINTS
+            </h4>
+            <li
+              id="page-get"
+              onClick={[Function]}
+            >
+              GET
+            </li>
+            <li
+              id="page-post"
+              onClick={[Function]}
+            >
+              POST
+            </li>
+            <li
+              id="page-patch"
+              onClick={[Function]}
+            >
+              PATCH
+            </li>
+            <li
+              id="page-delete"
+              onClick={[Function]}
+            >
+              DELETE
+            </li>
+          </ul>,
+          <h4>
+            MORE INFO
+          </h4>,
+          <h4
+            id="page-overview"
+            onClick={[Function]}
+          >
+            OVERVIEW
+          </h4>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                API ENDPOINTS
+              </h4>,
+              <li
+                id="page-get"
+                onClick={[Function]}
+              >
+                GET
+              </li>,
+              <li
+                id="page-post"
+                onClick={[Function]}
+              >
+                POST
+              </li>,
+              <li
+                id="page-patch"
+                onClick={[Function]}
+              >
+                PATCH
+              </li>,
+              <li
+                id="page-delete"
+                onClick={[Function]}
+              >
+                DELETE
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "API ENDPOINTS",
+              },
+              "ref": null,
+              "rendered": "API ENDPOINTS",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "GET",
+                "id": "page-get",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "GET",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "POST",
+                "id": "page-post",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "POST",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PATCH",
+                "id": "page-patch",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "PATCH",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "DELETE",
+                "id": "page-delete",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "DELETE",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "MORE INFO",
+          },
+          "ref": null,
+          "rendered": "MORE INFO",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "OVERVIEW",
+            "id": "page-overview",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "OVERVIEW",
+          "type": "h4",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
