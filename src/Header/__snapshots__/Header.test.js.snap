@@ -18,7 +18,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
+      "children": <h1
+        className="title"
+      >
         FANTASY BASKETBALL API DOCUMENTATION
       </h1>,
     },
@@ -29,6 +31,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "FANTASY BASKETBALL API DOCUMENTATION",
+        "className": "title",
       },
       "ref": null,
       "rendered": "FANTASY BASKETBALL API DOCUMENTATION",
@@ -42,7 +45,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
+        "children": <h1
+          className="title"
+        >
           FANTASY BASKETBALL API DOCUMENTATION
         </h1>,
       },
@@ -53,6 +58,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "FANTASY BASKETBALL API DOCUMENTATION",
+          "className": "title",
         },
         "ref": null,
         "rendered": "FANTASY BASKETBALL API DOCUMENTATION",

@@ -20,77 +20,278 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <ul>
-          <h4>
+      "children": <ul>
+        <h4
+          className="overview"
+          id="page-overview"
+          onClick={[Function]}
+        >
+          OVERVIEW
+        </h4>
+        <h4
+          className="endpoints"
+        >
+          API ENDPOINTS
+        </h4>
+        <li
+          className="link"
+          id="page-get"
+          onClick={[Function]}
+        >
+          GET
+        </li>
+        <li
+          className="link"
+          id="page-post"
+          onClick={[Function]}
+        >
+          POST
+        </li>
+        <li
+          className="link"
+          id="page-patch"
+          onClick={[Function]}
+        >
+          PATCH
+        </li>
+        <li
+          className="link"
+          id="page-delete"
+          onClick={[Function]}
+        >
+          DELETE
+        </li>
+      </ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="overview"
+            id="page-overview"
+            onClick={[Function]}
+          >
+            OVERVIEW
+          </h4>,
+          <h4
+            className="endpoints"
+          >
+            API ENDPOINTS
+          </h4>,
+          <li
+            className="link"
+            id="page-get"
+            onClick={[Function]}
+          >
+            GET
+          </li>,
+          <li
+            className="link"
+            id="page-post"
+            onClick={[Function]}
+          >
+            POST
+          </li>,
+          <li
+            className="link"
+            id="page-patch"
+            onClick={[Function]}
+          >
+            PATCH
+          </li>,
+          <li
+            className="link"
+            id="page-delete"
+            onClick={[Function]}
+          >
+            DELETE
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "OVERVIEW",
+            "className": "overview",
+            "id": "page-overview",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "OVERVIEW",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "API ENDPOINTS",
+            "className": "endpoints",
+          },
+          "ref": null,
+          "rendered": "API ENDPOINTS",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "GET",
+            "className": "link",
+            "id": "page-get",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "GET",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "POST",
+            "className": "link",
+            "id": "page-post",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "POST",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "PATCH",
+            "className": "link",
+            "id": "page-patch",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "PATCH",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "DELETE",
+            "className": "link",
+            "id": "page-delete",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "DELETE",
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul>
+          <h4
+            className="overview"
+            id="page-overview"
+            onClick={[Function]}
+          >
+            OVERVIEW
+          </h4>
+          <h4
+            className="endpoints"
+          >
             API ENDPOINTS
           </h4>
           <li
+            className="link"
             id="page-get"
             onClick={[Function]}
           >
             GET
           </li>
           <li
+            className="link"
             id="page-post"
             onClick={[Function]}
           >
             POST
           </li>
           <li
+            className="link"
             id="page-patch"
             onClick={[Function]}
           >
             PATCH
           </li>
           <li
+            className="link"
             id="page-delete"
             onClick={[Function]}
           >
             DELETE
           </li>
         </ul>,
-        <h4>
-          MORE INFO
-        </h4>,
-        <h4
-          id="page-overview"
-          onClick={[Function]}
-        >
-          OVERVIEW
-        </h4>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h4>
+            <h4
+              className="overview"
+              id="page-overview"
+              onClick={[Function]}
+            >
+              OVERVIEW
+            </h4>,
+            <h4
+              className="endpoints"
+            >
               API ENDPOINTS
             </h4>,
             <li
+              className="link"
               id="page-get"
               onClick={[Function]}
             >
               GET
             </li>,
             <li
+              className="link"
               id="page-post"
               onClick={[Function]}
             >
               POST
             </li>,
             <li
+              className="link"
               id="page-patch"
               onClick={[Function]}
             >
               PATCH
             </li>,
             <li
+              className="link"
               id="page-delete"
               onClick={[Function]}
             >
@@ -105,7 +306,22 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": "OVERVIEW",
+              "className": "overview",
+              "id": "page-overview",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "OVERVIEW",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "children": "API ENDPOINTS",
+              "className": "endpoints",
             },
             "ref": null,
             "rendered": "API ENDPOINTS",
@@ -117,6 +333,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "GET",
+              "className": "link",
               "id": "page-get",
               "onClick": [Function],
             },
@@ -130,6 +347,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "POST",
+              "className": "link",
               "id": "page-post",
               "onClick": [Function],
             },
@@ -143,6 +361,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "PATCH",
+              "className": "link",
               "id": "page-patch",
               "onClick": [Function],
             },
@@ -156,6 +375,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "DELETE",
+              "className": "link",
               "id": "page-delete",
               "onClick": [Function],
             },
@@ -166,210 +386,6 @@ ShallowWrapper {
         ],
         "type": "ul",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "MORE INFO",
-        },
-        "ref": null,
-        "rendered": "MORE INFO",
-        "type": "h4",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "OVERVIEW",
-          "id": "page-overview",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "OVERVIEW",
-        "type": "h4",
-      },
-    ],
-    "type": "nav",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ul>
-            <h4>
-              API ENDPOINTS
-            </h4>
-            <li
-              id="page-get"
-              onClick={[Function]}
-            >
-              GET
-            </li>
-            <li
-              id="page-post"
-              onClick={[Function]}
-            >
-              POST
-            </li>
-            <li
-              id="page-patch"
-              onClick={[Function]}
-            >
-              PATCH
-            </li>
-            <li
-              id="page-delete"
-              onClick={[Function]}
-            >
-              DELETE
-            </li>
-          </ul>,
-          <h4>
-            MORE INFO
-          </h4>,
-          <h4
-            id="page-overview"
-            onClick={[Function]}
-          >
-            OVERVIEW
-          </h4>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                API ENDPOINTS
-              </h4>,
-              <li
-                id="page-get"
-                onClick={[Function]}
-              >
-                GET
-              </li>,
-              <li
-                id="page-post"
-                onClick={[Function]}
-              >
-                POST
-              </li>,
-              <li
-                id="page-patch"
-                onClick={[Function]}
-              >
-                PATCH
-              </li>,
-              <li
-                id="page-delete"
-                onClick={[Function]}
-              >
-                DELETE
-              </li>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "API ENDPOINTS",
-              },
-              "ref": null,
-              "rendered": "API ENDPOINTS",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "GET",
-                "id": "page-get",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "GET",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "POST",
-                "id": "page-post",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "POST",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "PATCH",
-                "id": "page-patch",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "PATCH",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "DELETE",
-                "id": "page-delete",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "DELETE",
-              "type": "li",
-            },
-          ],
-          "type": "ul",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "MORE INFO",
-          },
-          "ref": null,
-          "rendered": "MORE INFO",
-          "type": "h4",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "OVERVIEW",
-            "id": "page-overview",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "OVERVIEW",
-          "type": "h4",
-        },
-      ],
       "type": "nav",
     },
   ],

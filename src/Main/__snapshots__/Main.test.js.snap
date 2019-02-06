@@ -144,7 +144,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="endpoint"
+        >
           GET all teams:
         </h2>,
         <h3>
@@ -157,24 +159,32 @@ ShallowWrapper {
           Sample Response:
         </p>,
         <img
+          alt="array of NBA teams with relevant stats"
+          className="get"
           src="../images/Screen Shot 2019-02-05 at 3.29.49 PM.png"
         />,
-        <h2>
+        <h2
+          className="endpoint"
+        >
           GET all players:
         </h2>,
         <h3>
           GET /api/v1/players
         </h3>,
         <p>
-          Receive an arry of the top 3 scoring leaders from each team with additional stats.
+          Receive an array of the top 3 scoring leaders from each team with additional stats.
         </p>,
         <p>
           Sample Response:
         </p>,
         <img
+          alt="array of the top 3 scoring leaders from each team with additional stats"
+          className="get"
           src="../images/Screen Shot 2019-02-05 at 3.30.12 PM.png"
         />,
-        <h2>
+        <h2
+          className="endpoint"
+        >
           GET a single team:
         </h2>,
         <h3>
@@ -187,9 +197,13 @@ ShallowWrapper {
           Sample Response:
         </p>,
         <img
+          alt="single team object with stats"
+          className="get2"
           src="../images/Screen Shot 2019-02-05 at 3.30.27 PM.png"
         />,
-        <h2>
+        <h2
+          className="endpoint"
+        >
           GET a single player:
         </h2>,
         <h3>
@@ -202,9 +216,12 @@ ShallowWrapper {
           Sample Response:
         </p>,
         <img
+          alt="single player object with all stats"
+          className="get2"
           src="../images/Screen Shot 2019-02-05 at 3.30.40 PM.png"
         />,
       ],
+      "className": "main",
     },
     "ref": null,
     "rendered": Array [
@@ -214,6 +231,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "GET all teams:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "GET all teams:",
@@ -257,6 +275,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "array of NBA teams with relevant stats",
+          "className": "get",
           "src": "../images/Screen Shot 2019-02-05 at 3.29.49 PM.png",
         },
         "ref": null,
@@ -269,6 +289,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "GET all players:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "GET all players:",
@@ -290,10 +311,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Receive an arry of the top 3 scoring leaders from each team with additional stats.",
+          "children": "Receive an array of the top 3 scoring leaders from each team with additional stats.",
         },
         "ref": null,
-        "rendered": "Receive an arry of the top 3 scoring leaders from each team with additional stats.",
+        "rendered": "Receive an array of the top 3 scoring leaders from each team with additional stats.",
         "type": "p",
       },
       Object {
@@ -312,6 +333,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "array of the top 3 scoring leaders from each team with additional stats",
+          "className": "get",
           "src": "../images/Screen Shot 2019-02-05 at 3.30.12 PM.png",
         },
         "ref": null,
@@ -324,6 +347,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "GET a single team:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "GET a single team:",
@@ -367,6 +391,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "single team object with stats",
+          "className": "get2",
           "src": "../images/Screen Shot 2019-02-05 at 3.30.27 PM.png",
         },
         "ref": null,
@@ -379,6 +405,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "GET a single player:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "GET a single player:",
@@ -422,6 +449,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "single player object with all stats",
+          "className": "get2",
           "src": "../images/Screen Shot 2019-02-05 at 3.30.40 PM.png",
         },
         "ref": null,
@@ -438,7 +467,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="endpoint"
+          >
             GET all teams:
           </h2>,
           <h3>
@@ -451,24 +482,32 @@ ShallowWrapper {
             Sample Response:
           </p>,
           <img
+            alt="array of NBA teams with relevant stats"
+            className="get"
             src="../images/Screen Shot 2019-02-05 at 3.29.49 PM.png"
           />,
-          <h2>
+          <h2
+            className="endpoint"
+          >
             GET all players:
           </h2>,
           <h3>
             GET /api/v1/players
           </h3>,
           <p>
-            Receive an arry of the top 3 scoring leaders from each team with additional stats.
+            Receive an array of the top 3 scoring leaders from each team with additional stats.
           </p>,
           <p>
             Sample Response:
           </p>,
           <img
+            alt="array of the top 3 scoring leaders from each team with additional stats"
+            className="get"
             src="../images/Screen Shot 2019-02-05 at 3.30.12 PM.png"
           />,
-          <h2>
+          <h2
+            className="endpoint"
+          >
             GET a single team:
           </h2>,
           <h3>
@@ -481,9 +520,13 @@ ShallowWrapper {
             Sample Response:
           </p>,
           <img
+            alt="single team object with stats"
+            className="get2"
             src="../images/Screen Shot 2019-02-05 at 3.30.27 PM.png"
           />,
-          <h2>
+          <h2
+            className="endpoint"
+          >
             GET a single player:
           </h2>,
           <h3>
@@ -496,9 +539,12 @@ ShallowWrapper {
             Sample Response:
           </p>,
           <img
+            alt="single player object with all stats"
+            className="get2"
             src="../images/Screen Shot 2019-02-05 at 3.30.40 PM.png"
           />,
         ],
+        "className": "main",
       },
       "ref": null,
       "rendered": Array [
@@ -508,6 +554,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "GET all teams:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "GET all teams:",
@@ -551,6 +598,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "array of NBA teams with relevant stats",
+            "className": "get",
             "src": "../images/Screen Shot 2019-02-05 at 3.29.49 PM.png",
           },
           "ref": null,
@@ -563,6 +612,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "GET all players:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "GET all players:",
@@ -584,10 +634,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Receive an arry of the top 3 scoring leaders from each team with additional stats.",
+            "children": "Receive an array of the top 3 scoring leaders from each team with additional stats.",
           },
           "ref": null,
-          "rendered": "Receive an arry of the top 3 scoring leaders from each team with additional stats.",
+          "rendered": "Receive an array of the top 3 scoring leaders from each team with additional stats.",
           "type": "p",
         },
         Object {
@@ -606,6 +656,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "array of the top 3 scoring leaders from each team with additional stats",
+            "className": "get",
             "src": "../images/Screen Shot 2019-02-05 at 3.30.12 PM.png",
           },
           "ref": null,
@@ -618,6 +670,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "GET a single team:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "GET a single team:",
@@ -661,6 +714,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "single team object with stats",
+            "className": "get2",
             "src": "../images/Screen Shot 2019-02-05 at 3.30.27 PM.png",
           },
           "ref": null,
@@ -673,6 +728,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "GET a single player:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "GET a single player:",
@@ -716,6 +772,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "single player object with all stats",
+            "className": "get2",
             "src": "../images/Screen Shot 2019-02-05 at 3.30.40 PM.png",
           },
           "ref": null,
@@ -771,7 +829,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="endpoint"
+        >
           POST a new team:
         </h2>,
         <h3>
@@ -784,6 +844,8 @@ ShallowWrapper {
           Sample Request:
         </p>,
         <img
+          alt="Sample Request"
+          className="post1"
           src="../images/Screen Shot 2019-02-05 at 3.30.55 PM.png"
         />,
         <p>
@@ -793,14 +855,18 @@ ShallowWrapper {
           Sample response
         </p>,
         <img
+          alt="Sample response"
+          className="post2"
           src="../images/Screen Shot 2019-02-05 at 3.31.16 PM.png"
         />,
-        <h3>
+        <h2
+          className="endpoint"
+        >
           Post a new player:
-        </h3>,
-        <h2>
-          POST /api/v1/players
         </h2>,
+        <h3>
+          POST /api/v1/players
+        </h3>,
         <p>
           Request should include a complete player object with all necessary properties.
         </p>,
@@ -808,9 +874,12 @@ ShallowWrapper {
           Sample Request:
         </p>,
         <img
+          alt="Sample Request"
+          className="post3"
           src="../images/Screen Shot 2019-02-05 at 3.31.28 PM.png"
         />,
       ],
+      "className": "main",
     },
     "ref": null,
     "rendered": Array [
@@ -820,6 +889,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "POST a new team:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "POST a new team:",
@@ -863,6 +933,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample Request",
+          "className": "post1",
           "src": "../images/Screen Shot 2019-02-05 at 3.30.55 PM.png",
         },
         "ref": null,
@@ -896,6 +968,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample response",
+          "className": "post2",
           "src": "../images/Screen Shot 2019-02-05 at 3.31.16 PM.png",
         },
         "ref": null,
@@ -908,10 +982,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Post a new player:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "Post a new player:",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -922,7 +997,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "POST /api/v1/players",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
@@ -951,6 +1026,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample Request",
+          "className": "post3",
           "src": "../images/Screen Shot 2019-02-05 at 3.31.28 PM.png",
         },
         "ref": null,
@@ -967,7 +1044,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="endpoint"
+          >
             POST a new team:
           </h2>,
           <h3>
@@ -980,6 +1059,8 @@ ShallowWrapper {
             Sample Request:
           </p>,
           <img
+            alt="Sample Request"
+            className="post1"
             src="../images/Screen Shot 2019-02-05 at 3.30.55 PM.png"
           />,
           <p>
@@ -989,14 +1070,18 @@ ShallowWrapper {
             Sample response
           </p>,
           <img
+            alt="Sample response"
+            className="post2"
             src="../images/Screen Shot 2019-02-05 at 3.31.16 PM.png"
           />,
-          <h3>
+          <h2
+            className="endpoint"
+          >
             Post a new player:
-          </h3>,
-          <h2>
-            POST /api/v1/players
           </h2>,
+          <h3>
+            POST /api/v1/players
+          </h3>,
           <p>
             Request should include a complete player object with all necessary properties.
           </p>,
@@ -1004,9 +1089,12 @@ ShallowWrapper {
             Sample Request:
           </p>,
           <img
+            alt="Sample Request"
+            className="post3"
             src="../images/Screen Shot 2019-02-05 at 3.31.28 PM.png"
           />,
         ],
+        "className": "main",
       },
       "ref": null,
       "rendered": Array [
@@ -1016,6 +1104,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "POST a new team:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "POST a new team:",
@@ -1059,6 +1148,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample Request",
+            "className": "post1",
             "src": "../images/Screen Shot 2019-02-05 at 3.30.55 PM.png",
           },
           "ref": null,
@@ -1092,6 +1183,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample response",
+            "className": "post2",
             "src": "../images/Screen Shot 2019-02-05 at 3.31.16 PM.png",
           },
           "ref": null,
@@ -1104,10 +1197,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Post a new player:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "Post a new player:",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -1118,7 +1212,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "POST /api/v1/players",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
@@ -1147,6 +1241,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample Request",
+            "className": "post3",
             "src": "../images/Screen Shot 2019-02-05 at 3.31.28 PM.png",
           },
           "ref": null,
@@ -1202,12 +1298,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
+        <h2
+          className="endpoint"
+        >
           PATCH an existing team:
-        </h3>,
-        <h2>
-          PATCH /api/v1/teams/:id
         </h2>,
+        <h3>
+          PATCH /api/v1/teams/:id
+        </h3>,
         <p>
           Request should include any key/value pairs that are to be changed in the database.
         </p>,
@@ -1215,6 +1313,8 @@ ShallowWrapper {
           Sample request body:
         </p>,
         <img
+          alt="Sample request body"
+          className="patch1"
           src="../images/Screen Shot 2019-02-05 at 3.31.43 PM.png"
         />,
         <p>
@@ -1224,14 +1324,18 @@ ShallowWrapper {
           Sample response:
         </p>,
         <img
+          alt="Sample response"
+          className="patch2"
           src="../images/Screen Shot 2019-02-05 at 3.50.15 PM.png"
         />,
-        <h3>
+        <h2
+          className="endpoint"
+        >
           PATCH an existing player:
-        </h3>,
-        <h2>
-          PATCH /api/v1/players/:id
         </h2>,
+        <h3>
+          PATCH /api/v1/players/:id
+        </h3>,
         <p>
           Request should include any key/value pairs that are to be changed on the database.
         </p>,
@@ -1239,6 +1343,8 @@ ShallowWrapper {
           Sample request body:
         </p>,
         <img
+          alt="Sample request body"
+          className="patch3"
           src="../images/Screen Shot 2019-02-05 at 3.31.57 PM.png"
         />,
         <p>
@@ -1248,9 +1354,12 @@ ShallowWrapper {
           Sample response:
         </p>,
         <img
+          alt="Sample response"
+          className="patch4"
           src="../images/Screen Shot 2019-02-05 at 3.32.10 PM.png"
         />,
       ],
+      "className": "main",
     },
     "ref": null,
     "rendered": Array [
@@ -1260,10 +1369,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "PATCH an existing team:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "PATCH an existing team:",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -1274,7 +1384,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "PATCH /api/v1/teams/:id",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
@@ -1303,6 +1413,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample request body",
+          "className": "patch1",
           "src": "../images/Screen Shot 2019-02-05 at 3.31.43 PM.png",
         },
         "ref": null,
@@ -1336,6 +1448,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample response",
+          "className": "patch2",
           "src": "../images/Screen Shot 2019-02-05 at 3.50.15 PM.png",
         },
         "ref": null,
@@ -1348,10 +1462,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "PATCH an existing player:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "PATCH an existing player:",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -1362,7 +1477,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "PATCH /api/v1/players/:id",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
@@ -1391,6 +1506,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample request body",
+          "className": "patch3",
           "src": "../images/Screen Shot 2019-02-05 at 3.31.57 PM.png",
         },
         "ref": null,
@@ -1424,6 +1541,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample response",
+          "className": "patch4",
           "src": "../images/Screen Shot 2019-02-05 at 3.32.10 PM.png",
         },
         "ref": null,
@@ -1440,12 +1559,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
+          <h2
+            className="endpoint"
+          >
             PATCH an existing team:
-          </h3>,
-          <h2>
-            PATCH /api/v1/teams/:id
           </h2>,
+          <h3>
+            PATCH /api/v1/teams/:id
+          </h3>,
           <p>
             Request should include any key/value pairs that are to be changed in the database.
           </p>,
@@ -1453,6 +1574,8 @@ ShallowWrapper {
             Sample request body:
           </p>,
           <img
+            alt="Sample request body"
+            className="patch1"
             src="../images/Screen Shot 2019-02-05 at 3.31.43 PM.png"
           />,
           <p>
@@ -1462,14 +1585,18 @@ ShallowWrapper {
             Sample response:
           </p>,
           <img
+            alt="Sample response"
+            className="patch2"
             src="../images/Screen Shot 2019-02-05 at 3.50.15 PM.png"
           />,
-          <h3>
+          <h2
+            className="endpoint"
+          >
             PATCH an existing player:
-          </h3>,
-          <h2>
-            PATCH /api/v1/players/:id
           </h2>,
+          <h3>
+            PATCH /api/v1/players/:id
+          </h3>,
           <p>
             Request should include any key/value pairs that are to be changed on the database.
           </p>,
@@ -1477,6 +1604,8 @@ ShallowWrapper {
             Sample request body:
           </p>,
           <img
+            alt="Sample request body"
+            className="patch3"
             src="../images/Screen Shot 2019-02-05 at 3.31.57 PM.png"
           />,
           <p>
@@ -1486,9 +1615,12 @@ ShallowWrapper {
             Sample response:
           </p>,
           <img
+            alt="Sample response"
+            className="patch4"
             src="../images/Screen Shot 2019-02-05 at 3.32.10 PM.png"
           />,
         ],
+        "className": "main",
       },
       "ref": null,
       "rendered": Array [
@@ -1498,10 +1630,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "PATCH an existing team:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "PATCH an existing team:",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -1512,7 +1645,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "PATCH /api/v1/teams/:id",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
@@ -1541,6 +1674,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample request body",
+            "className": "patch1",
             "src": "../images/Screen Shot 2019-02-05 at 3.31.43 PM.png",
           },
           "ref": null,
@@ -1574,6 +1709,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample response",
+            "className": "patch2",
             "src": "../images/Screen Shot 2019-02-05 at 3.50.15 PM.png",
           },
           "ref": null,
@@ -1586,10 +1723,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "PATCH an existing player:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "PATCH an existing player:",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -1600,7 +1738,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "PATCH /api/v1/players/:id",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
@@ -1629,6 +1767,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample request body",
+            "className": "patch3",
             "src": "../images/Screen Shot 2019-02-05 at 3.31.57 PM.png",
           },
           "ref": null,
@@ -1662,6 +1802,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample response",
+            "className": "patch4",
             "src": "../images/Screen Shot 2019-02-05 at 3.32.10 PM.png",
           },
           "ref": null,
@@ -1717,12 +1859,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
+        <h2
+          className="endpoint"
+        >
           DELETE an existing team:
-        </h3>,
-        <h2>
-          DELETE /api/v1/teams/:id
         </h2>,
+        <h3>
+          DELETE /api/v1/teams/:id
+        </h3>,
         <p>
           Receive a confirmation message or the record that was deleted.
         </p>,
@@ -1730,14 +1874,18 @@ ShallowWrapper {
           Sample response:
         </p>,
         <img
+          alt="Sample response"
+          className="delete"
           src="../images/Screen Shot 2019-02-05 at 3.32.24 PM.png"
         />,
-        <h3>
+        <h2
+          className="endpoint"
+        >
           DELETE an existing player:
-        </h3>,
-        <h2>
-          DELETE /api/v1/players/:id
         </h2>,
+        <h3>
+          DELETE /api/v1/players/:id
+        </h3>,
         <p>
           Receive a confirmation message or the record that was deleted.
         </p>,
@@ -1745,9 +1893,12 @@ ShallowWrapper {
           Sample response:
         </p>,
         <img
+          alt="Sample response"
+          className="delete"
           src="../images/Screen Shot 2019-02-05 at 3.32.35 PM.png"
         />,
       ],
+      "className": "main",
     },
     "ref": null,
     "rendered": Array [
@@ -1757,10 +1908,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "DELETE an existing team:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "DELETE an existing team:",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -1771,7 +1923,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "DELETE /api/v1/teams/:id",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
@@ -1800,6 +1952,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample response",
+          "className": "delete",
           "src": "../images/Screen Shot 2019-02-05 at 3.32.24 PM.png",
         },
         "ref": null,
@@ -1812,10 +1966,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "DELETE an existing player:",
+          "className": "endpoint",
         },
         "ref": null,
         "rendered": "DELETE an existing player:",
-        "type": "h3",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -1826,7 +1981,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "DELETE /api/v1/players/:id",
-        "type": "h2",
+        "type": "h3",
       },
       Object {
         "instance": null,
@@ -1855,6 +2010,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "Sample response",
+          "className": "delete",
           "src": "../images/Screen Shot 2019-02-05 at 3.32.35 PM.png",
         },
         "ref": null,
@@ -1871,12 +2028,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
+          <h2
+            className="endpoint"
+          >
             DELETE an existing team:
-          </h3>,
-          <h2>
-            DELETE /api/v1/teams/:id
           </h2>,
+          <h3>
+            DELETE /api/v1/teams/:id
+          </h3>,
           <p>
             Receive a confirmation message or the record that was deleted.
           </p>,
@@ -1884,14 +2043,18 @@ ShallowWrapper {
             Sample response:
           </p>,
           <img
+            alt="Sample response"
+            className="delete"
             src="../images/Screen Shot 2019-02-05 at 3.32.24 PM.png"
           />,
-          <h3>
+          <h2
+            className="endpoint"
+          >
             DELETE an existing player:
-          </h3>,
-          <h2>
-            DELETE /api/v1/players/:id
           </h2>,
+          <h3>
+            DELETE /api/v1/players/:id
+          </h3>,
           <p>
             Receive a confirmation message or the record that was deleted.
           </p>,
@@ -1899,9 +2062,12 @@ ShallowWrapper {
             Sample response:
           </p>,
           <img
+            alt="Sample response"
+            className="delete"
             src="../images/Screen Shot 2019-02-05 at 3.32.35 PM.png"
           />,
         ],
+        "className": "main",
       },
       "ref": null,
       "rendered": Array [
@@ -1911,10 +2077,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "DELETE an existing team:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "DELETE an existing team:",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -1925,7 +2092,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "DELETE /api/v1/teams/:id",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
@@ -1954,6 +2121,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample response",
+            "className": "delete",
             "src": "../images/Screen Shot 2019-02-05 at 3.32.24 PM.png",
           },
           "ref": null,
@@ -1966,10 +2135,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "DELETE an existing player:",
+            "className": "endpoint",
           },
           "ref": null,
           "rendered": "DELETE an existing player:",
-          "type": "h3",
+          "type": "h2",
         },
         Object {
           "instance": null,
@@ -1980,7 +2150,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "DELETE /api/v1/players/:id",
-          "type": "h2",
+          "type": "h3",
         },
         Object {
           "instance": null,
@@ -2009,6 +2179,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "Sample response",
+            "className": "delete",
             "src": "../images/Screen Shot 2019-02-05 at 3.32.35 PM.png",
           },
           "ref": null,
